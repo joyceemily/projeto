@@ -6,7 +6,7 @@ export const Contatos = () => {
         <div>
            <h1>Seja um fã patrocinador</h1>
             <form className="form">
-                
+                <div className="mae">
                 <fieldset>
                     <legend>Informações sobre você</legend>
                     <label>Telefone:</label>
@@ -20,7 +20,10 @@ export const Contatos = () => {
                     <br></br>
                     <label>E-mail:</label>
                     <input type="text" placeholder="user@gmail.com" />
+                    <br></br>
+                    <input type="submit" value="Enviar" className="button"/>
                 </fieldset>
+                </div>
             </form>
         </div>
     );

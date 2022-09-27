@@ -1,15 +1,16 @@
 body {
-  background-image: url(./pages/img/thenbhd.png);
-  background-size: 100vw;
+  background-image: url(./pages/img/Design\ sem\ nome\ \(2\).png);
+  background-size: 100%;
   background-repeat: no-repeat; 
   width: 100vw;
-  height: 100vh;
+  height: 100vw;
   margin: 0%;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow-y: hidden;
 }
 
 code {

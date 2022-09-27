@@ -1,6 +1,8 @@
 h1{
-    color: #DCDCDC;
+   
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+color: white;
+  text-shadow: 2px 2px 4px #000000;
 }
 legend{
     color:#DCDCDC;
@@ -10,12 +12,36 @@ label{
     
 }
 .form{
-    height: 40px;
-    width: 40px;
-    padding-left: 45%;
-
+    position: relative;
+    align-items: center;
+    text-align: center;
+    
+}
+form{
+    height: 300px;
+    width: 600px;
+    margin-left: 35%;
+    align-items: center;
+    text-align: center;
 }
 
+fieldset{
+    border-color:black;
+    border-style: inset;
+}
+label{
+    color:aliceblue;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     
-
-
+}
+legend{
+    font-family:   'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:aliceblue;
+}
+input{
+    border-radius: 25px;
+    border-color: #A9A9A9;
+}
+.mae{
+    box-shadow: 10px 10px 5px #000000;
+}
